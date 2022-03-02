@@ -22,7 +22,7 @@ app.use('/users', Routes);
 // https://www.mongodb.com/cloud/atlas
 // const USERNAME = process.env.USERNAME;
 // const PASSWORD = process.env.PASSWORD;
-const URL = 'Add Your DataBase Link ADD'
+const URL = 'mongodb+srv://crud:crud@cluster0.pum05.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 // const dotenv = require('dotenv'); //3 - but we need to tell express where to pick this port 
 // It allows you to seperate your crediantials when we work in a collaborative environment
 const PORT = process.env.PORT || '8080'; //2 - get the port from env file, if not available pick 8080
