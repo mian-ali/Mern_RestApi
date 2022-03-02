@@ -15,7 +15,7 @@ function App() {
         <Route exact path="/all" component={AllUsers} />
         <Route exact path="/add" component={AddUser} />
         <Route exact path="/edit/:id" component={EditUser} />
-        <Route component={NotFound} />
+        <Route    component={NotFound} />
       </Switch>
     </BrowserRouter>
   );
